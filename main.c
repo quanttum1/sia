@@ -134,12 +134,13 @@ int main(int argc, char **argv) {
     char *text = read_entire_file(argv[1]);
 
     printf("Controls:\n");
-    printf("Pause/read - Space\n");
-    printf("Quit       - q\n");
-    printf("Slower     - -\n");
-    printf("Faster     - + or =\n");
+    printf("Space  → Pause/read\n");
+    printf("q      → Quit\n");
+    printf("-      → Slower (-200 cpm)\n");
+    printf("+ or = → Faster (+200 cpm)\n");
     printf("\n");
-    printf("Be aware that the file '%s' will be modified when you quit the app, removing everything you've read. You may want to copy it. You can press Ctrl-C to quit the program before you start reading if you want to do that. You will start reading immediately after you enter the speed\n", argv[1]);
+    printf("Be aware that the file '%s' will be modified when you quit the app, removing everything you've already read so you can continue where you left off next time.", argv[1]);
+    printf("You may want to copy it. You can press Ctrl-C to quit the program before you start reading if you want to do that. You will start reading immediately after you enter the speed\n");
     printf("Happy reading! :3\n");
     printf("\n");
 
