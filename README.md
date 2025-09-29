@@ -6,8 +6,6 @@ When you quit, it removes everything you’ve already read from the file so you 
 
 ⚠️ Windows support is incomplete right now (POSIX/Linux/macOS works fine).
 
----
-
 ## Features
 
 * Reads plain text files word by word, at a customisable speed (characters per minute).
@@ -20,8 +18,6 @@ When you quit, it removes everything you’ve already read from the file so you 
 * Progress persistence: when you quit with `q`, the already-read part of the file is deleted.
 * UTF-8 aware (basic multi-byte character handling).
 * Cute, minimal, self-contained single C file.
-
----
 
 ## Installation
 
@@ -40,7 +36,6 @@ Make sure `~/.local/bin` is in your `$PATH`.
 sia <file.txt>
 ```
 
----
 ## Contributing/Support
 Any contributions are very welcome! Feel free to open an issue or a pull request :3
 There are a lot of TODOs I didn't implement yet, so there's always something to do 😅
@@ -48,6 +43,7 @@ There are a lot of TODOs I didn't implement yet, so there's always something to 
 ## License
 
 Unlicense (Public Domain)
+
 ---
 
 Happy reading! <3
